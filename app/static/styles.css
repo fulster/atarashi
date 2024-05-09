@@ -1,0 +1,16 @@
+.idea-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Ligne séparatrice entre les idées et les mots clés */
+}
+.keywords {
+    margin-top: 5px;
+}
+.badge {
+    margin-right: 5px;
+    background-color: #925dbe; /* Bleu pâle pour les badges */
+}
+
+.keyword-badge {
+    background-color: #925dbe; /* Bleu pâle pour les badges de mots-clés */
+}
