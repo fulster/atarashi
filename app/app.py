@@ -48,7 +48,7 @@ def keywords():
     messages=[
         {
             "role": "user",
-            "content": f"Tu es spécialiste en aménagement d'intérieur. Génère une liste séparée de 3 nom de commerce générique séparés par des virgules chez qui on peut trouver cet item (exemple pour du pain : boulangerie, rayon boulangerie de supermarché) : {text}",
+            "content": f"Tu es spécialiste culinaire. Génère une liste (séparée par des virgules) de 3 rayons ou marchands dans lesquels on peut trouver cet item (exemple pour des oignons : primeur, rayon légumes de supermarché, vendeur de fruits et légumes de marché) : {text}",
         }
     ],
     model="gpt-3.5-turbo",
